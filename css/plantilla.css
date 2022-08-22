@@ -54,7 +54,7 @@ header{
 #hero{
     /*imagen de fondo*/
     height: 350px;
-    background-image:url(./imagenes/pink-desk.webp);
+    background-image:url(../imagenes/pink-desk.webp);
     background-repeat:no-repeat;
     background-position: center center; /*acomoda las imagenes en los ejes x y */
     background-size: cover; /*hace que la imagen se acomode al tamaño de la pagina*/
