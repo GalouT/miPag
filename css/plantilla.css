@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:raleway;
+    font-weight: 300;
+    color: gray;
+    
+}
+
+header{
+    height: 110px;
+    border-top: 10px solid chocolate;
+    display: flex;
+}
+
+    #top{
+        width: 900px;
+        margin:auto;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        line-height: 50px;
+        
+    }
+
+    #top a{
+        text-decoration: none;
+        
+    }
+
+    #marca{
+        color: rgb(208, 130, 74);
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    #top nav a{
+        color: rgb(138, 138, 138);
+        padding: 10px;
+    }
+
+    #top nav a:hover{
+        color:rgb(208, 130, 74) ;
+    }
+
+   
+
+#hero{
+    /*imagen de fondo*/
+    height: 350px;
+    background-image:url(./imagenes/pink-desk.webp);
+    background-repeat:no-repeat;
+    background-position: center center; /*acomoda las imagenes en los ejes x y */
+    background-size: cover; /*hace que la imagen se acomode al tamaño de la pagina*/
+
+    /*contenido de texto*/
+
+    text-align: center;
+    line-height: 350px;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(249, 247, 247);
+    
+}
+
+main{
+    width: 900px;
+    margin: auto; /*para que quede centrado*/
+    min-height: 560px;
+    margin-top: 25px; /*para separar de la caja de arriba*/
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+    main h1{
+        font-size: 20px;
+        width:900px;
+    }
+
+    article{
+        width: 400px;
+    }
+
+    article h2{
+        font-size: 16px;
+        margin-bottom: 10px;
+        /*imagen de fondo EN ESTE CASO LA IMAGEN VA A SER IGUAL EN TODOS LOS ARTICLES*/
+        /* background-image: url(./imagenes/wrench-sunglo.png);
+        background-size: 16px;
+        background-repeat: no-repeat;
+        padding-left: 30px;
+        */
+    }
+
+    article h2 img{
+        /* imagen dentro del elemento EN ESTE CASO PUEDO ELEGIR DISTINTAS IMAGENES EN CADA ARTICLE */
+        width: 26px;
+        margin-right: 10px;
+        position:relative;
+        top: 5px;
+    }
+
+    article p{
+        text-align:justify;
+    }
+
+    section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    section h2{
+        font-size: 16px;
+        width: 100%;
+    }
+
+    section img{
+        width: 75px;
+        float: left;
+        margin-right:20px ;
+    }
+
+footer{
+    height: 110px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    padding: 15px;
+ }
+
+ footer nav{
+     line-height: 60px;
+ }
+
+footer nav a{
+    color: rgb(138, 138, 138);
+    padding: 10px;
+}
+
+ footer a img{
+    width: 20px;
+    opacity: 0.5;
+ }
+
+ footer a img:hover{
+    opacity: 1;
+ }
+
